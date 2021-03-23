@@ -10,7 +10,10 @@ namespace Xamarin.Forms.DetectUserLocationCange.Services
 
     public interface ILocationEventArgs
     {
+        
         double Latitude { get; set; }
         double Longitude { get; set; }
+        
+        
     }
 }
